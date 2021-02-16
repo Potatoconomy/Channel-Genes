@@ -6,6 +6,8 @@ R Code for differential mRNA Expression analysis. Looks for channel protein chan
 
 Simply load in your results from DESeq2 (or other DE analysis). Best is if your rownames have been converted to HGNC symbols, otherwise basic modifications to the code need to be made. Feedback is greatly appreciated. There are many neuron channels which is only amplified by all the different isotypes that exist as well. Keep an eye out for false results by checking gene descriptions in the dataframe output.
 
+3 User inputs are required. They are clearly notated in the code.
+
 # Version
 
 ### Dependencies
