@@ -3,8 +3,8 @@ rm(list=ls())
 
 ## INSERT YOUR PATH FILES HERE ##
 # Start with an log fold change S4 object as output from DESeq2
-path_dir <- '/.../.../DATA/'
-DEObject_name  <- 'DESeq2S4_Object' 
+path_dir <- '/.../.../DATA/'                     #USER INPUT
+DEObject_name  <- 'DESeq2S4_Object'              #USER INPUT
 #################################
 
 
@@ -84,7 +84,7 @@ query_ensembl_functions <- function(df) {
   return(df)
 }
 
-channels <- get_channel_genes(#Insert name of your dataframe here)
+channels <- get_channel_genes(#Insert name of your dataframe here)    #USER INPUT
 GOI_df <- query_ensembl_functions(channels)
 write.table(GOI_df, file=paste(path_dir, DEObject_name, 'channels.csv', sep=''), col.names = NA)
 
