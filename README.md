@@ -10,7 +10,7 @@ Simply load in your results from DESeq2 (or other DE analysis). Best is if your 
 
 ### Dependencies
 
-dplyr_1.0.4
+dplyr_1.0.4\n
 biomaRt_2.42.1
 hash_2.2.6.1
 
