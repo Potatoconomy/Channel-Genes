@@ -84,7 +84,7 @@ query_ensembl_functions <- function(df) {
   return(df)
 }
 
-channels <- get_channel_genes(lfc_healthy)
+channels <- get_channel_genes(#Insert name of your dataframe here)
 GOI_df <- query_ensembl_functions(channels)
 write.table(GOI_df, file=paste(path_dir, DEObject_name, 'channels.csv', sep=''), col.names = NA)
 
